@@ -1,0 +1,1 @@
+The `Globale message` module for OAE.
