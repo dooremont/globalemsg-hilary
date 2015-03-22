@@ -1,6 +1,7 @@
-This is a test template
-Locale testing: __MSG__RECENT_ACTIVITY__
+<%
+var summary = '';
+summary = util.i18n.translate('__MSG__DESCRIPTION__');
+summary += ' ' +  description ;
+%>
 
-
-
-
+<%= summary %>
